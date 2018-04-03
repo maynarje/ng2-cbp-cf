@@ -28,6 +28,7 @@
     },
     "main": "index.ts",
     "module": "index.ts",
+    "sideEffects": false,
     "scripts": {
         "prebuild": "npm run-s clean && npm run-s lint && npm run-s test",
         "build": "cross-env NODE_ENV=production webpack --display-chunks",
